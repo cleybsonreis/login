@@ -6,3 +6,43 @@
  lilas = #5f2c82
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body , html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    transition: width 0.4s , heigth 0.4s;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+section#login > div#imagem{ 
+    display: block;
+    background: #5f2c82 url(../img/back.jpg);
+    height: 200px;
+    background-size: cover;
+   
+}
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
