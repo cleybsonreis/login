@@ -19,6 +19,26 @@
         float: right;
         width: 70%;
     }
+    form input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 415px;
+        height: 40px;
+        background-color: #49a09d;
+    }
+    form a.botao{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 630px;
+        height: 40px;
+        padding-top: 5px;
+        margin-top: 5px;
+        background-color: #6cd3cf;
+        color: #2d6462;
+        border-radius: 5px;
+        text-decoration: none;
+    }
 }
 
 @media screen and (min-width:992px){
